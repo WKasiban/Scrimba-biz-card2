@@ -1,0 +1,52 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    background-color: whitesmoke;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 30vw;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 1px rgba(120, 120, 120, 0.44);
+    -webkit-box-shadow: 5px 5px 5px 1px rgba(120, 120, 120, 0.44);
+    -moz-box-shadow: 5px 5px 5px 1px rgba(120, 120, 120, 0.44); 
+}
+
+.card-image {
+    width: 100%;
+    padding: 10%;
+    padding-bottom: 0;
+    border-radius: 50%;
+}
+
+.card-name {
+    margin-block: 1rem;
+    color: #333;
+}
+
+.card-info {
+    padding: 1.2rem;
+}
+
+.card-star {
+    width: 1.5rem;
+    cursor: pointer;
+}
+
+.card-contact {
+    font-size: 0.75rem;
+    color: gray;
+    margin-block: 0.5rem;
+}
